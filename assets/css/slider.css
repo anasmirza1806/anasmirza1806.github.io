@@ -72,7 +72,7 @@
   #Main {
    
    width: 33rem;
-    height: 25rem;
+    height: 4rem;
      margin: auto;
    padding-top: 1rem;
    }
@@ -88,7 +88,7 @@
    #Main-child{
    
       width: 25rem;
-      height: 80rem;
+      height: 10rem;
       overflow: hidden;
 
       flex-direction: column;
@@ -101,7 +101,7 @@
   
 
    #child-1-small{
-   
+   display: none;
       width: 120rem;
       height: 150rem;
         overflow: hidden;
@@ -117,7 +117,7 @@
     
    }
    #child-2-small{
-    
+    display: none;
     width: 120rem;
     height: 150rem;
       overflow: hidden;
@@ -126,6 +126,7 @@
    }
 
    #child-3-small{
+    display: none;
     width: 120rem;
     height: 150rem;
       overflow: hidden;
@@ -137,6 +138,7 @@
    }
 
    #child-4-small{
+    display: none;
     width: 120rem;
     height: 150rem;
       overflow: hidden;
@@ -694,7 +696,7 @@ margin-top: 400px;
 }
 
 #cats{
-  padding-top: 1320px;
+  padding-top: 300px;
 }
 
 
