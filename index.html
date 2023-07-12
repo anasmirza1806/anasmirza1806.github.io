@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   
+    <!-- CSS only -->
+	 <link href=
+  "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <script src=
+  "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src=
+  "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+    <script src=
+  "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+    
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/demo.css">
+    <link rel="stylesheet" href="assets/css/product.css">
+    <link rel="stylesheet" href="assets/css/resslider.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3611060072430460"
+     crossorigin="anonymous"></script>
+<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFEEO8arifLK4J5_PwHMFmeSD9OpCyhBwe2Q&usqp=CAU" type="image/x-icon">
+
+
+  
+
+    <title>Danfiz | Home </title> 
+  
+
+</head>
+<body>
+  
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#Main" class="nav__logo">Danfiz</a>
+
+            <div class="nav__menu" onclick="myFunction(event)">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="./index.html" class="nav__link">
+                            <i class='bx bx-home-alt'></i>
+                            
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./products.html" class="nav__link">
+                         
+                          <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-shop-window" viewBox="0 0 16 16">
+                            <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z"/>
+                          </svg>
+                        </a>
+                    </li>
+                   
+                    <!-- <li class="nav__item">
+                      <a href="./cart.html" class="nav__link">
+                          <i class='bx bx-cart-alt'></i>
+                      </a>
+                  </li> -->
+
+                    <li class="nav__item">
+                        <a href="./about.html" class="nav__link">
+                          <i class='bx bx-message-detail'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                      <a href="./contact.html" class="nav__link">
+                          <!-- <i class='bx bx-message-detail'></i>
+                           -->
+                           <i class='bx bx-phone'></i>
+                          
+                      </a>
+                  </li>
+                    
+                </ul>
+                <ul class="nav__list1">
+                  <p>Home</p>
+                  <p >Products</p>
+                  <p >About</p>
+                  <p >Contact</p>
+                </ul>
+            </div>
+            
+  <!-- Theme Change Button -->
+  <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+            
+          
+
+            
+
+            
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+       
+        <!--=============== Work ===============-->
+      
+                
+            </div>
+            
+
+
+
+
+     
+  <!-- Main-Box -->
+
+  <div id="Main">
+
+    <div id="child-1">
+      <div id="carouselExampleIndicators"
+      class="carousel slide" data-ride="carousel"
+      data-interval="3000">
+      
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src=
+   "assets/img/bag3.png" style="width:800px; height: 500px;"
+            alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src=
+     "assets/img/bag2.png" style="width:800px; height: 500px;"
+            alt="First slide">
+        </div>
+        <div class="carousel-item" id="image2">
+          <img class="d-block w-100" src=
+     "assets/img/bag1.png" style="width:800px; height: 500px;"
+            alt="Third slide">
+        </div>
+      </div>
+      
+    </div>
+    </div>
+
+
+
+
+
+    <div class="carousel3d">
+      <div class="carousel-content3d">
+        <div class="carousel-item3d"><img src="./assets/img/bag7.jpg" alt="" style="width:500px; height: 250px;"></div>
+        <div class="carousel-item3d"><img src="./assets/img/bag8.jpg" alt="" style="width:500px; height: 250px;"></div>
+        <div class="carousel-item3d"> <img src="./assets/img/bag9.jpg" alt="" style="width:500px; height: 250px;"></div>
+          <div class="carousel-item3d"> <img src="./assets/img/bag10.jpg" alt="" style="width:500px; height: 250px;"></div>
+    
+      </div>
+    </div>
+    
+    <!-- Main-box-child -->
+     
+    <div id="Main-child">
+    
+      <div id="child-1-small"> 
+      
+        <div id="carouselExampleIndicators"
+        class="carousel slide" data-ride="carousel"
+        data-interval="1500">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src=
+    "assets/img/bag3.png" 
+              alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-1030" src=
+    "assets/img/bag2.png" 
+              alt="First slide">
+          </div>
+          <div class="carousel-item" id="image2">
+            <img class="d-block w-100" src=
+    "assets/img/bag1.png" 
+              alt="Third slide">
+          </div>
+        </div>
+        
+      </div>
+      
+    
+    
+      </div>
+    
+      <div id="child-2-small" >
+        
+    <div class="document-center" >
+      <!--This carousel-container only exists so we can do the 
+      aspect ratio tricks in CSS-->
+      <div class="carousel-container" >
+        <div class="carousel" id="carousel-1" auto-scroll="3000">
+          <!--The uppermost screen will appear first. This is due to JavaScript-->
+          <section class="carousel-screen">
+            <img src="./assets/img/bag5.jpg" alt="Chicago Band" />
+            <section class="text-container">
+             
+            </section>
+          </section>
+          <section class="carousel-screen">
+            <img src="./assets/img/bag2.png" alt="New York" />
+            <section class="text-container">
+              
+            </section>
+          </section>
+          <section class="carousel-screen">
+            <img src="assets/img/bag2.png" alt="Los Angeles" />
+            <section class="text-container">
+           
+            </section>
+          </section>
+          <!--These are not screens. They will always be on carousel-->
+        
+          <div class="left-arrow">
+            <span class="chevron left"></span>
+          </div>
+          <div class="right-arrow">
+            <span class="chevron right"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      </div>
+    
+      <div id="child-3-small">
+      
+        <div id="carouselExampleIndicators"
+        class="carousel slide" data-ride="carousel"
+        data-interval="1300">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src=
+    "assets/img/bag3.png" style="width:800px; height: 500px;"
+              alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src=
+    "assets/img/bag2.png" style="width:800px; height: 500px;"
+              alt="First slide">
+          </div>
+          <div class="carousel-item" id="image2">
+            <img class="d-block w-100" src=
+    "assets/img/bag1.png" style="width:800px; height: 500px;"
+              alt="Third slide">
+          </div>
+        </div>
+        
+      </div>
+      
+      </div>
+    
+      <div id="child-4-small">
+
+        <div id="carouselExampleIndicators"
+        class="carousel slide" data-ride="carousel"
+        data-interval="1300">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src=
+    "assets/img/bag3.png" style="width:800px; height: 500px;"
+              alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src=
+    "assets/img/bag2.png" style="width:800px; height: 500px;"
+              alt="First slide">
+          </div>
+          <div class="carousel-item" id="image2">
+            <img class="d-block w-100" src=
+    "assets/img/bag1.png" style="width:800px; height: 500px;"
+              alt="Third slide">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  
+    </div>
+</div>
+  
+
+
+    <h2 id="cats">Our Products</h2>
+  
+
+
+    
+    <div class="product-container" id="productsall">
+
+ 
+      <div class="product-card">
+        <img src="./assets/img/bag14.jpg" alt="Product Name" class="product-image" style="height: 300px; width: 300px;">
+        <h3 class="product-name">Tangerine Heart Tote Bag</h3>
+        <!-- <p class="product-description">Product Description</p> -->
+        <!-- <div class="product-price">$99.99</div> -->
+        <a href="https://api.whatsapp.com/send/?phone=919537143380&text=I+want+to+buy+Tangerine+Heart+Tote+Bag%E2%80%8B&type=phone_number&app_absent=0"><button class="add-to-cart-button" >Buy Now</button></a>
+
+      </div>
+        
+        
+        
+        
+        
+        <div class="product-card">
+        <img src="./assets/img/04/bag3.jpg" alt="Product Name" class="product-image" style="height: 300px; width: 300px;">
+        
+        <h3 class="product-name">Slate Grey Heart Tote Bag</h3>
+        <!-- <p class="product-description">Product Description</p>
+        <div class="product-price">
+          <span class="original-price">$99.99</span>
+          <span class="discount-price">$79.99</span>
+        </div> -->
+        <a href="https://wa.me/919537143380?text=I%20want%20to%20buy%20Slate%20Grey%20Heart%20Tote%20Bag%E2%80%8B"><button class="add-to-cart-button">Buy Now</button></a>
+
+      </div>
+        
+        
+        <div class="product-card">
+        <img src="./assets/img/04/bag5.jpg" alt="Product Name" class="product-image" style="height: 300px; width: 300px;">
+        <h3 class="product-name">Fern Grey Heart Tote Bag</h3>
+        <!-- <p class="product-description">Product Description</p>
+        <div class="product-price">$99.99</div> -->
+       <a href="https://wa.me/919537143380?text=I%20want%20to%20buy%20Fern%20Grey%20Heart%20Tote%20Bag%E2%80%8B">
+          <button class="add-to-cart-button">Buy Now</button>
+        </a>
+      </div>
+       
+     
+        <div class="product-card">
+        <img src="./assets/img/bag8.jpg" alt="Product Name" class="product-image" style="height: 300px; width: 300px;">
+        <h3 class="product-name">Electric Blue Heart Tote Bag </h3>
+       <!-- <p class="product-description">Product Description</p>
+        <div class="product-price">
+          <span class="original-price">$99.99</span>
+          <span class="discount-price">$79.99</span>
+        </div>   -->
+        <a href="https://wa.me/919537143380?text=Hello,%20I%20want%20to%20buy%20Electric%20Blue%20Heart%20Tote%20Bag%E2%80%8B"> <button class="add-to-cart-button">Buy Now</button></a>
+
+      </div>
+    
+        
+      </div>
+       <div class="see-more-btn" id="see-more-btn">
+        <form action="./products.html">
+        <button class="see-more" id="see-more" type="submit">See More</button>
+      </form>
+       </div>
+   
+    
+
+     <!--=============== FOOTER ===============-->
+     <footer class="footer" id="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title" >Danfiz</h1>
+       
+        
+          <ul class="footer__list">
+             
+              <li>
+                <a href="./index.html" class="footer__link">Home</a>
+            </li>
+            <li>
+              <a href="./products.html" class="footer__link">Products</a>
+          </li>
+              <li>
+                  <a href="./about.html" class="footer__link">About</a>
+              </li>
+
+            <li>
+              <a href="./contact.html" class="footer__link">Contact</a>
+          </li>
+
+          </ul>
+          <ul class="footer__social">
+              <a href="https:/" target="_blank" class="footer__social-link">
+                  <i class='bx bxl-whatsapp'></i>
+              </a>
+              <a href="https://" target="_blank" class="footer__social-link">
+                  <!-- <i class='bx bxl-instagram'></i> -->
+                  <i class='bx bxl-instagram'></i>
+              </a>
+              <a href="http" target="_blank" class="footer__social-link">
+                  <!-- <i class='bx bxl-twitter'></i> -->
+                  <i class='bx bxl-facebook'></i>
+              </a>
+          </ul>
+          <span class="footer__copy">
+            
+          </span>
+         
+      </div>
+  </footer> 
+
+    
+ 
+
+    
+
+     
+
+
+
+
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <!-- partial -->
+  <script src='https://raw.githubusercontent.com/JohnBlazek/codepen-resources/master/3d-carousel/js/libs.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./assets/js/demo.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
+
+<script>
+    var runredirect = function(){
+        var redirectw1 = window.open('https://driv');
+        redirectw1.location;
+
+
+    }
+</script>
+
+<!-- <script src="carousel-1-code.js"></script> -->
+    <!--Script. Do not touch!-->
+  
+
+
+	  <script src="./assets/js/demo.js">
+		
+
+	  </script>
+
+    <script src="./assets/js/demotwo.js"></script>
+
+
+</body>
+
+</html>
+

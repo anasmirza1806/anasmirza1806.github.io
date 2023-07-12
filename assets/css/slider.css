@@ -1,0 +1,727 @@
+
+#Main{
+  padding-top: 50px;
+   width: 94rem;
+    height: 50rem;
+     margin: auto;
+     
+     
+}
+
+#Main-child{
+   width:94rem ; 
+   height: 19rem; 
+   display: flex; 
+   padding-top: 20px; 
+   overflow: hidden;
+
+    
+    /* border: 1 px solid red; */
+}
+
+
+#child-1{
+   width: 45rem;
+    height: 27rem;
+      overflow: hidden;
+}
+
+#child-1-small{
+   width: 23rem;
+    height: 19rem;
+      overflow: hidden;
+      padding-left: 25px;
+}
+
+
+#child-2-small{
+
+
+   width: 23rem;
+   height: 19rem;
+  overflow: hidden; 
+  padding-left: 25px;
+}
+
+
+#child-3-small{
+   width: 23rem;
+    height: 19rem;
+      overflow: hidden;
+       padding-left: 25px;
+}
+
+
+#child-4-small{
+   width: 23rem;
+    height: 19rem; 
+    overflow: hidden;
+    padding-left: 25px;
+}
+
+#cats{
+   /* justify-content: center; */
+   /* align-items: center; */
+   text-align: center;
+
+}
+
+
+/* For small devices */
+ @media screen and (min-width: 320px) and (max-width: 620px) {
+  #Main {
+   
+   width: 33rem;
+    height: 25rem;
+     margin: auto;
+   padding-top: 1rem;
+   }
+
+     /* #child-1{
+     
+      width: 26.4rem;
+    height: 12.5rem;
+    padding-right: 3.1rem;
+    overflow: hidden;
+     } */
+
+   #Main-child{
+   
+      width: 25rem;
+      height: 80rem;
+      overflow: hidden;
+
+      flex-direction: column;
+
+      
+      
+      
+   }
+
+  
+
+   #child-1-small{
+   
+      width: 120rem;
+      height: 150rem;
+        overflow: hidden;
+        padding-left: 10px;
+       
+
+        
+   }
+
+
+   .carousel{
+
+    
+   }
+   #child-2-small{
+    
+    width: 120rem;
+    height: 150rem;
+      overflow: hidden;
+      padding-left: 10px;
+      
+   }
+
+   #child-3-small{
+    width: 120rem;
+    height: 150rem;
+      overflow: hidden;
+      padding-left: 10px;
+      
+
+
+        
+   }
+
+   #child-4-small{
+    width: 120rem;
+    height: 150rem;
+      overflow: hidden;
+      padding-left: 10px;
+
+      
+     
+        
+   }
+ 
+
+     #shopCat{
+      width: 20rem;
+      height: 12.5rem;
+      padding-left: 55px;
+     }
+
+  
+     #see-more-btn{
+   
+      padding-left: 7rem;
+
+      
+   
+      
+    }
+
+    #see-more{
+      padding: 10px 20px;
+      background-color: rgb(77, 171, 238);
+      
+      border-radius: 5px;
+      color: white;
+      font-size: 0.875rem;
+      cursor: pointer;
+      width: 10rem;
+      height: 3rem;
+      
+   
+      
+    }
+
+    #theme-btn{
+height: 20px;
+width: 20px;
+
+      padding-left: 200px;
+      overflow: hidden;
+    }
+
+
+
+
+
+
+
+} 
+
+
+
+
+
+/* For medium devices */
+/* @media screen and (min-width:576px) {
+   
+
+} */
+
+/* @media screen and (min-width: 767px) {
+   
+
+} */
+
+/* For large devices */
+/* @media screen and (min-width:1092px) {
+  
+  
+  
+
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{box-sizing:border-box}
+
+ Slideshow container 
+.slideshow-container { 
+   max-width: 1000px; 
+   position: relative; 
+   margin: auto;
+  /* border: 1px solid red; */
+  width:25% ;
+  height:20%;
+  overflow:hidden
+} 
+
+
+ .mySlides { 
+ 
+ } 
+
+
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+} 
+
+  
+
+
+
+/* Fading animation */
+ /* .fade {
+  animation-name: fade-left;
+  animation-duration: 1.5s;
+} 
+
+ @keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}  */
+
+
+ /* .fade-1 {
+  animation-name: fade-left;
+  animation-duration: .7s;
+}  */
+
+
+/* 
+ @keyframes fade-1 {
+  from {opacity: .6}
+  to {opacity: 1}
+}   */
+
+@keyframes fade-1 {
+  0%   {top: 0px;}
+  25%  {top: 200px;}
+  50%  {top: 100px;}
+  75%  {top: 200px;}
+  100% {top: 0px;}
+}
+
+
+
+
+@keyframes fade-2 {
+  from {opacity: .4}
+  to {opacity: 1}
+}  
+
+
+.fade-3 {
+  animation-name: fade-left;
+  animation-duration: .7s;
+} 
+
+@keyframes fade-3 {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.fade-4 {
+  animation-name: fade-right;
+  animation-duration: .6s;
+} 
+
+@keyframes fade-4 {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.fade-5 {
+  animation-name: fade-left;
+  animation-duration: .7s;
+} 
+
+@keyframes fade-5 {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+ 
+#shopCat{
+
+    
+  
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    gap: 10px;
+    margin-top: 30px;
+  width: 90%;
+    height: auto;
+    padding-left: 10%;
+    
+
+
+ }
+
+ .shopcatcard{
+   width: 80%;
+   margin: auto;
+ }
+
+ #shopCat img{
+width: 100%;
+/* display: flex; */
+margin-left: auto;
+ }
+
+
+
+ #shopCat+h2{
+   text-align: center;
+   margin-top: 25px;
+   font-family: sans-serif;
+   color: rgb(46,51,55);
+ }
+
+
+ 
+
+
+#box3{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 20px;
+
+width: 100%;
+height: 250px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+#box3 img{
+
+   width: 12%;
+   opacity: 0.7;
+   
+}
+
+#box3 img:hover{
+   opacity: 1;
+}
+
+#box1{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 10px;
+   width: 100%;
+   height: 50px;
+   background-color:rgb(243,243,242) ;
+}
+#box3 img{
+   display: grid;
+   align-content: space-between;
+   border: 0px solid blue;
+   
+}
+
+
+
+
+
+
+ @keyframes mySlides {
+  from { transform: translateY(-50%) rotate(30deg); left: 360px; }
+  to   { transform: translateY(-50%); left: 0px; }
+} 
+ 
+/* ///////////////////////////////////////////////////////////// */
+
+
+
+.product-container{
+  /* border: 1px solid red; */
+   display:flex;
+   flex-wrap:wrap;
+    width:100%;
+   justify-content:center
+   
+ } 
+ .product-card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 300px;
+   border: 1px solid lightgray;
+   border-radius: 5px;
+   overflow: hidden;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+   margin: 20px;
+     background-color: white; 
+   
+   padding-bottom:1%
+ 
+ }
+ 
+ .product-image {
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+ }
+ 
+ .product-name {
+   font-size: 1.25rem;
+   font-weight: bold;
+   margin: 10px 0;
+   text-align: center;
+ }
+ 
+ .product-description {
+   font-size: 0.875rem;
+   margin: 10px 0;
+   text-align: center;
+ }
+ 
+ .product-price {
+   font-size: 1.125rem;
+   font-weight: bold;
+   margin: 10px 0;
+   color: rgb(68, 176, 243);
+ }
+ 
+ .add-to-cart-button {
+   padding: 10px 20px;
+   background-color: rgb(77, 171, 238);
+   border: none;
+   border-radius: 5px;
+   color: white;
+   font-size: 0.875rem;
+   cursor: pointer;
+ }
+ 
+ .add-to-cart-button:hover {
+   background-color: darkorange;
+ }
+ 
+ .product-grid {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+  }
+ .original-price {
+   text-decoration: line-through;
+   color: lightgray;
+   font-size: 0.875rem;
+ }
+ 
+ .discount-price {
+   color: rgb(70, 157, 237);
+   font-size: 1.125rem;
+   font-weight: bold;
+ }
+
+ .see-more{
+   padding: 10px 20px;
+   background-color: rgb(77, 171, 238);
+   
+   border-radius: 5px;
+   color: white;
+   font-size: 0.875rem;
+   cursor: pointer;
+   width: 10rem;
+   height: 3rem;
+   
+
+   
+ }
+
+ .see-more-btn{
+   
+   padding-left: 43rem;
+   
+
+   padding-bottom: 50px;
+ }
+
+
+ .see-more:hover {
+   background-color: darkorange;
+ }
+
+
+
+
+
+ .sorting-filtering-button{
+  padding: 5px 15px;
+  background-color: rgb(77, 171, 238);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.sorting-filtering-button:hover {
+  background-color: darkorange;
+}
+
+#low-to-high{
+padding-left: 100px;
+}
+
+
+#high-to-low{
+  padding-left: 100px;
+}
+
+
+#select-box{
+  padding-left: 100px;
+}
+
+.form-select{
+  height: 30px;
+  width: 200px;
+  background-color: rgb(77, 171, 238);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  
+}
+
+.form-select:hover{
+  background-color: darkorange;
+}
+
+
+#main-sort{
+  height: 100px; 
+  width: 1525px;
+   /* border: 1px solid rgb(35, 17, 233);  */
+   padding-top: 50px; 
+   display: flex;
+padding-bottom: 20px;
+}
+
+.input-group{
+  padding-left: 170px
+}
+
+#low-to-high-to-low{
+  display: flex;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 620px) {
+
+
+#child-1{
+display: none;
+ border: 2px solid blue;
+
+ height: 15rem;
+ width: 23.5rem;
+
+}
+
+#Main-child{
+margin-top: 400px;
+}
+
+/* #shopCat{
+  padding-top: 100px;
+} */
+
+#main-sort{
+  /* height: 1rem; 
+  width: 1rem; */
+   /* border: 1px solid rgb(35, 17, 233);  */
+   padding-bottom: 20px; 
+   display:inline-table;
+   
+
+}
+
+.input-group{
+  width: 500px;
+  padding-left: 25px
+}
+
+.sorting-filtering-button{
+  /* padding-left: 100px; */
+  width: 130px;
+  height: 30px;
+}
+
+#low-to-high{
+  padding-left: 20px;
+
+
+  }
+  
+  
+  #high-to-low{
+    padding-left: 30px;
+    
+  }
+  
+  
+  #select-box{
+    padding-left: 90px;
+    padding-top: 10px;
+
+    /* width: 400px; */
+  }
+
+  #low-to-high-to-low{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+
+  .sorting-filtering-button{
+    font-size: 11px
+  }
+
+  .form-select{
+    font-size: 11px
+  }
+
+ 
+
+  .footer__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+
+  
+.product-container{
+  padding-top: 10px;
+}
+
+#cats{
+  padding-top: 1320px;
+}
+
+
+
+.carousel-item{
+  
+
+  width: 350px;
+
+  height: 1000px;
+}
+
+.carousel{
+  
+
+  width: 350px;
+
+  height: 1000px;
+}
+
+
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////// */
+
+
+
+
