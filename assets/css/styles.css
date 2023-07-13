@@ -118,6 +118,11 @@ margin-bottom: 0%;
   }
 }
 
+
+@media screen and (min-width: 320px) and (max-width: 620px) {
+
+
+}
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
@@ -359,6 +364,7 @@ body.light-theme {
   justify-content: space-between;
   align-items: center;
   padding-top: 0%;
+  
 }
 
 .nav__link {

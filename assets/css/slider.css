@@ -72,7 +72,7 @@
   #Main {
    
    width: 33rem;
-    height: 4rem;
+    height: 25rem;
      margin: auto;
    padding-top: 1rem;
    }
@@ -88,7 +88,7 @@
    #Main-child{
    
       width: 25rem;
-      height: 10rem;
+      height: auto;
       overflow: hidden;
 
       flex-direction: column;
@@ -101,7 +101,7 @@
   
 
    #child-1-small{
-   display: none;
+   
       width: 120rem;
       height: 150rem;
         overflow: hidden;
@@ -117,20 +117,21 @@
     
    }
    #child-2-small{
-    display: none;
+    
     width: 120rem;
     height: 150rem;
       overflow: hidden;
       padding-left: 10px;
+      display: none;
       
    }
 
    #child-3-small{
-    display: none;
     width: 120rem;
     height: 150rem;
       overflow: hidden;
       padding-left: 10px;
+      display: none;
       
 
 
@@ -138,12 +139,11 @@
    }
 
    #child-4-small{
-    display: none;
     width: 120rem;
     height: 150rem;
       overflow: hidden;
       padding-left: 10px;
-
+display: none;
       
      
         
@@ -611,7 +611,7 @@ padding-bottom: 20px;
 display: none;
  border: 2px solid blue;
 
- height: 15rem;
+ height: 13rem;
  width: 23.5rem;
 
 }
@@ -696,7 +696,7 @@ margin-top: 400px;
 }
 
 #cats{
-  padding-top: 300px;
+  padding-top: 550px;
 }
 
 
