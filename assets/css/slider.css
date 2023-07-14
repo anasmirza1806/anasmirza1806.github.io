@@ -30,7 +30,8 @@
    width: 23rem;
     height: 19rem;
       overflow: hidden;
-      padding-left: 25px;
+      margin-left: 0.3rem;
+      
 }
 
 
@@ -696,7 +697,7 @@ margin-top: 400px;
 }
 
 #cats{
-  padding-top: 550px;
+  padding-top: 400px;
 }
 
 
